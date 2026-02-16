@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About us • Hidden Gems of Arad</title>
+  <meta name="description" content="Despre concursul Hidden Gems of Arad și organizatori." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Hidden Gems of Arad" />
+        <div class="bt">
+          <strong>Hidden Gems of Arad</strong>
+          <span>Descoperă, filmează și inspiră.</span>
+        </div>
+      </a>
+      <nav class="actions" aria-label="Navigare">
+        <a class="btn tab" href="index.html">Home</a>
+        <a class="btn tab active" href="about.html">About us</a>
+        <a class="btn primary" href="map.html">Harta virtuală</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap grid">
+    <article class="card span-7">
+      <h2>Organizator</h2>
+      <p class="muted">
+        Concurs județean interdisciplinar de materiale video „Hidden Gems of Arad”, ediția I – 2026.
+      </p>
+      <ul>
+        <li><b>Organizator:</b> Școala Gimnazială Bârzava</li>
+        <li><b>Format:</b> mixt (direct + online)</li>
+        <li><b>Email centralizare:</b> <a href="mailto:hidden.gems.arad@gmail.com">hidden.gems.arad@gmail.com</a></li>
+      </ul>
+
+      <div class="cta-row">
+        <a class="btn primary" href="https://forms.gle/FskENUpS3Z62T45D9" target="_blank" rel="noopener">Înscriere & upload (Form)</a>
+        <a class="btn" href="https://drive.google.com/drive/folders/1riwT4JsWnk0qq2GoPWzGcQu1i_oGSGKC?usp=sharing" target="_blank" rel="noopener">Documente (Drive)</a>
+      </div>
+    </article>
+
+    <aside class="card span-5">
+      <h2>Parteneri</h2>
+      <ul>
+        <li>Liceul Tehnologic „Francisc Neuman” Arad</li>
+        <li>Liceul Tehnologic „Vasile Juncu” Miniș</li>
+      </ul>
+      <p class="small muted">Poți adăuga aici date de contact, linkuri și echipa de proiect.</p>
+    </aside>
+
+    <article class="card span-12">
+      <h2>Resurse vizuale</h2>
+      <p class="small muted">
+        În acest site sunt folosite materialele grafice furnizate de organizator (banner, afiș, sigle).
+      </p>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="small muted">© <span id="year"></span> Hidden Gems of Arad</div>
+      <div class="small"><a href="index.html#calendar">Calendar</a></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
