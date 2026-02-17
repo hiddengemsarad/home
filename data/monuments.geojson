@@ -1,0 +1,385 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palatul Administrativ (Primăria Arad)",
+        "category": "Arhitectură civilă",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Sediul Primăriei Municipiului Arad.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.319348,
+          46.175439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palatul Cultural",
+        "category": "Arhitectură civilă",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Filarmonica și instituții culturale; Piața George Enescu.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.32017,
+          46.17411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Teatrul Clasic „Ioan Slavici”",
+        "category": "Cultură",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Teatrul emblematic al orașului, în centrul Aradului.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.31577,
+          46.17109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biserica Roșie (Evanghelică-Luterană)",
+        "category": "Biserică",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Biserică neogotică din cărămidă aparentă.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.31994,
+          46.17737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sinagoga Neologă",
+        "category": "Sinagogă",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Lăcaș de cult evreiesc (sec. XIX).",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3176,
+          46.1686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sinagoga Ortodoxă",
+        "category": "Sinagogă",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Sinagogă ortodoxă (reper al comunității evreiești).",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.315278,
+          46.168056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Statuia Libertății (Parcul Reconcilierii)",
+        "category": "Monument",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Monument comemorativ; Parcul Reconcilierii.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.308638,
+          46.170782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cetatea Aradului",
+        "category": "Arhitectură militară",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Fortificație (acces limitat).",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.33192,
+          46.17114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biserica Franciscană",
+        "category": "Biserică",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Biserică istorică (Ordinul Franciscan).",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3324,
+          46.1718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gara Centrală Arad",
+        "category": "Transport",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Principala gară a orașului; Piața Gării.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.325,
+          46.189722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palatul Cenad",
+        "category": "Arhitectură civilă",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Clădire istorică pe Bd. Revoluției.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.318444444444445,
+          46.175913888888886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palatul Bohuș",
+        "category": "Arhitectură civilă",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Clădire secession; Str. Vasile Goldiș.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.315,
+          46.1711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palatul Szántay",
+        "category": "Arhitectură civilă",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Clădire secession; Str. Horia / Episcopiei.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3163,
+          46.176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palatul Neumann",
+        "category": "Arhitectură civilă",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Palat istoric pe Corso; Bd. Revoluției / Str. Horia.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3174,
+          46.1753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cazinoul din Arad",
+        "category": "Arhitectură civilă",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Clădire istorică (1872) pe Bd. Dragalina.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3205,
+          46.172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palatul de Justiție",
+        "category": "Arhitectură civilă",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Clădire monument istoric.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3184,
+          46.1734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Colegiul Național „Moise Nicoară”",
+        "category": "Educație",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Colegiu istoric din centrul Aradului.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3167,
+          46.1717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turnul de Apă",
+        "category": "Arhitectură industrială",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Turn de apă istoric.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.32303,
+          46.17303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biserica Reformată",
+        "category": "Biserică",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Biserică reformată din Arad.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.31944,
+          46.17083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Ardealul",
+        "category": "Arhitectură civilă",
+        "year": "",
+        "prize": "",
+        "school": "",
+        "notes": "Hotel istoric din centrul Aradului.",
+        "youtubeId": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.31501,
+          46.17159
+        ]
+      }
+    }
+  ]
+}
