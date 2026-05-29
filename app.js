@@ -1,8 +1,7 @@
 // --- Config ---
 const DATA_URL = "data/monuments.geojson";
+const SUBMIT_URL = "https://forms.gle/FskENUpS3Z62T45D9";
 
-// Link înscriere / trimitere (același ca pe home)
-const SUBMIT_URL = "https://forms.gle/FskENUpS3Z62T45D9"; // TODO: Google Form / Drive upload
 const ABOUT_HTML = `
   <p>
     Aceasta este <b>Harta Virtuală</b> a concursului <b>Hidden Gems of Arad</b>.
@@ -40,19 +39,25 @@ function extractYouTubeId(input){
   return "";
 }
 
-
 // --- UI helpers ---
 const $ = (id) => document.getElementById(id);
+const on = (id, evt, fn) => { const el = $(id); if (el) el.addEventListener(evt, fn); };
 
 function openModal(title, html){
-  $("modalTitle").textContent = title;
-  $("modalBody").innerHTML = html;
-  $("modal").classList.add("show");
-  $("modal").setAttribute("aria-hidden", "false");
+  const t = $("modalTitle");
+  const b = $("modalBody");
+  const m = $("modal");
+  if (!t || !b || !m) { console.warn("Modal elements missing"); return; }
+  t.textContent = title;
+  b.innerHTML = html;
+  m.classList.add("show");
+  m.setAttribute("aria-hidden","false");
 }
 function closeModal(){
-  $("modal").classList.remove("show");
-  $("modal").setAttribute("aria-hidden", "true");
+  const m = $("modal");
+  if (!m) return;
+  m.classList.remove("show");
+  m.setAttribute("aria-hidden","true");
 }
 
 // --- Map init (Arad) ---
@@ -109,11 +114,11 @@ function buildPopup(props){
   const videoHtml = youtubeId
     ? `<iframe class="video"
         src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(youtubeId)}"
-        title="Clip câștigător"
+        title="Clip"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>`
-    : `<div class="desc"><i>Video indisponibil</i></div>`;
+    : `<div class="desc"><i>Video: în curând</i></div>`;
 
   const descHtml = notes ? `<div class="desc">${notes}</div>` : "";
 
@@ -131,7 +136,7 @@ function buildPopup(props){
 }
 
 function matchesFilters(props, query, year, prize, category){
-  const q = query.trim().toLowerCase();
+  const q = (query || "").trim().toLowerCase();
   const name = String(props.name || "").toLowerCase();
   const notes = String(props.notes || "").toLowerCase();
 
@@ -144,10 +149,10 @@ function matchesFilters(props, query, year, prize, category){
 }
 
 function refreshMarkers(){
-  const query = $("search").value || "";
-  const year = $("filterYear").value || "";
-  const prize = $("filterPrize").value || "";
-  const category = $("filterCategory").value || "";
+  const query = $("search")?.value || "";
+  const year = $("filterYear")?.value || "";
+  const prize = $("filterPrize")?.value || "";
+  const category = $("filterCategory")?.value || "";
 
   cluster.clearLayers();
 
@@ -164,6 +169,11 @@ function refreshMarkers(){
 }
 
 function fillSelectOptions(){
+  const yearSel = $("filterYear");
+  const prizeSel = $("filterPrize");
+  const catSel = $("filterCategory");
+  if (!yearSel || !prizeSel || !catSel) return;
+
   const years = uniqSorted(allFeatures.map(f => f.properties?.year));
   const prizes = uniqSorted(allFeatures.map(f => f.properties?.prize || f.properties?.winner));
   const categories = uniqSorted(allFeatures.map(f => f.properties?.category));
@@ -172,21 +182,21 @@ function fillSelectOptions(){
     const opt = document.createElement("option");
     opt.value = String(y);
     opt.textContent = String(y);
-    $("filterYear").appendChild(opt);
+    yearSel.appendChild(opt);
   });
 
   prizes.forEach(p => {
     const opt = document.createElement("option");
     opt.value = String(p);
     opt.textContent = String(p);
-    $("filterPrize").appendChild(opt);
+    prizeSel.appendChild(opt);
   });
 
   categories.forEach(c => {
     const opt = document.createElement("option");
     opt.value = String(c);
     opt.textContent = String(c);
-    $("filterCategory").appendChild(opt);
+    catSel.appendChild(opt);
   });
 }
 
@@ -205,6 +215,7 @@ async function loadData(){
 
     const lng = Number(coords[0]);
     const lat = Number(coords[1]);
+    if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
 
     const marker = L.marker([lat, lng]);
     marker.bindPopup(buildPopup(props), { maxWidth: 420 });
@@ -216,40 +227,36 @@ async function loadData(){
   refreshMarkers();
 }
 
-// --- Events ---
-$("search").addEventListener("input", () => refreshMarkers());
-$("filterYear").addEventListener("change", () => refreshMarkers());
-$("filterPrize").addEventListener("change", () => refreshMarkers());
-$("filterCategory").addEventListener("change", () => refreshMarkers());
+// --- Events (safe) ---
+on("search","input", () => refreshMarkers());
+on("filterYear","change", () => refreshMarkers());
+on("filterPrize","change", () => refreshMarkers());
+on("filterCategory","change", () => refreshMarkers());
 
-$("reset").addEventListener("click", () => {
-  $("search").value = "";
-  $("filterYear").value = "";
-  $("filterPrize").value = "";
-  $("filterCategory").value = "";
+on("reset","click", () => {
+  if ($("search")) $("search").value = "";
+  if ($("filterYear")) $("filterYear").value = "";
+  if ($("filterPrize")) $("filterPrize").value = "";
+  if ($("filterCategory")) $("filterCategory").value = "";
   refreshMarkers();
 });
 
-$("openAbout").addEventListener("click", (e) => {
+on("openAbout","click", (e) => {
   e.preventDefault();
   openModal("Despre", ABOUT_HTML);
 });
 
-$("openSubmit").addEventListener("click", (e) => {
+on("openSubmit","click", (e) => {
   e.preventDefault();
-  if (SUBMIT_URL && SUBMIT_URL !== "https://example.com") {
-    window.open(SUBMIT_URL, "_blank", "noopener");
-  } else {
-    openModal("Înscriere / Trimitere lucrări", `
-      <p>Setează linkul către formular / încărcare în <code>app.js</code> (SUBMIT_URL).</p>
-    `);
-  }
+  window.open(SUBMIT_URL, "_blank", "noopener");
 });
 
-$("closeModal").addEventListener("click", () => closeModal());
-$("modal").addEventListener("click", (e) => {
-  if (e.target === $("modal")) closeModal();
+on("closeModal","click", () => closeModal());
+on("modal","click", (e) => {
+  const mm = $("modal");
+  if (mm && e.target === mm) closeModal();
 });
+
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeModal();
 });
