@@ -1,0 +1,366 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.31521,
+          46.17237
+        ]
+      },
+      "properties": {
+        "name": "The Roman Catholic Cathedral Of Saint Anthony Of Padua In Arad",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "y3RzJG8ut5E",
+        "youtubeUrl": "https://www.youtube.com/shorts/y3RzJG8ut5E",
+        "notes": "Sectiune Individual Gimnaziu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.37278,
+          46.01917
+        ]
+      },
+      "properties": {
+        "name": "Eco- Village Firiteaz",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "_9CFgp9-eFI",
+        "youtubeUrl": "https://www.youtube.com/shorts/_9CFgp9-eFI",
+        "notes": "Sectiune Individual Gimnaziu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3156,
+          46.17693
+        ]
+      },
+      "properties": {
+        "name": "The A.D. Xenopol County Library In Arad",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "ZtdfGJteXXk",
+        "youtubeUrl": "https://www.youtube.com/shorts/ZtdfGJteXXk",
+        "notes": "Sectiune Individual Gimnaziu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.37278,
+          46.01917
+        ]
+      },
+      "properties": {
+        "name": "Firiteaz Village",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "TwXBCNmZND8",
+        "youtubeUrl": "https://youtu.be/TwXBCNmZND8",
+        "notes": "Sectiune Individual Gimnaziu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.31577,
+          46.17109
+        ]
+      },
+      "properties": {
+        "name": ",,IOAN SLAVICI ''THEATRE",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "zfxaYDiisDE",
+        "youtubeUrl": "https://youtu.be/zfxaYDiisDE",
+        "notes": "Sectiunea Individual Liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2729774733,
+          46.2186042513
+        ]
+      },
+      "properties": {
+        "name": "Monastery Of Saint Simeon The Pillar",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "pSOKsrBo9I4",
+        "youtubeUrl": "https://www.youtube.com/shorts/pSOKsrBo9I4",
+        "notes": "Sectiunea Individual Liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.318,
+          46.172
+        ]
+      },
+      "properties": {
+        "name": "Ștefan Cicio- Pop' S Memorial House",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "vBqWlAyBHsQ",
+        "youtubeUrl": "https://youtu.be/vBqWlAyBHsQ",
+        "notes": "Sectiunea Individual Liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.31994,
+          46.17737
+        ]
+      },
+      "properties": {
+        "name": "The Red Church Of Arad",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "YjomcLAjFFo",
+        "youtubeUrl": "https://www.youtube.com/shorts/YjomcLAjFFo",
+        "notes": "Sectiunea Individual Liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.317586,
+          46.168984
+        ]
+      },
+      "properties": {
+        "name": "The House With A Padlock",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "-GH_Kng5gws",
+        "youtubeUrl": "https://youtu.be/-GH_Kng5gws",
+        "notes": "Sectiunea Individual Liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.31577,
+          46.17109
+        ]
+      },
+      "properties": {
+        "name": "Ioan Slavici Classical Theatre",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "LhgQQaf0A1Q",
+        "youtubeUrl": "https://youtu.be/LhgQQaf0A1Q",
+        "notes": "Sectiunea Individual Liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.31994,
+          46.17737
+        ]
+      },
+      "properties": {
+        "name": "The Evangelical Lutheran Church- Red Church",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "3IB5MPhuX98",
+        "youtubeUrl": "https://youtu.be/3IB5MPhuX98",
+        "notes": "Sectiunea Individual Liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3156,
+          46.17693
+        ]
+      },
+      "properties": {
+        "name": "County Library ,,Alexandru D. Xenopol\" Arad",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "tFE5_O51rYg",
+        "youtubeUrl": "https://www.youtube.com/shorts/tFE5_O51rYg",
+        "notes": "Sectiunea Echipa- liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.317387,
+          46.168655
+        ]
+      },
+      "properties": {
+        "name": "The Neolog Synagogue of Arad",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "DVMaohojcF8",
+        "youtubeUrl": "https://youtu.be/DVMaohojcF8",
+        "notes": "Sectiunea Echipa- liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.319348,
+          46.175439
+        ]
+      },
+      "properties": {
+        "name": "Arad City Hall",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "IWAA-bA62B0",
+        "youtubeUrl": "https://www.youtube.com/shorts/IWAA-bA62B0",
+        "notes": "Sectiunea Echipa- liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3243799251,
+          46.1833621525
+        ]
+      },
+      "properties": {
+        "name": "Sfanta Treime Cathedral",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "x6_mk-NHH4A",
+        "youtubeUrl": "https://youtu.be/x6_mk-NHH4A",
+        "notes": "Sectiunea Echipa- liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.319722,
+          46.174444
+        ]
+      },
+      "properties": {
+        "name": "The Economic College",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "44yEnPe7XrA",
+        "youtubeUrl": "https://www.youtube.com/shorts/44yEnPe7XrA",
+        "notes": "Sectiunea Echipa- liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3149538194,
+          46.1710556945
+        ]
+      },
+      "properties": {
+        "name": "Bohuș Palace  Arad",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "XeYORLA4OBE",
+        "youtubeUrl": "https://youtu.be/XeYORLA4OBE",
+        "notes": "Sectiunea Echipa- liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.317586,
+          46.168984
+        ]
+      },
+      "properties": {
+        "name": "The Porcia Palace",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "vQ4vpVfIBsg",
+        "youtubeUrl": "https://www.youtube.com/shorts/vQ4vpVfIBsg",
+        "notes": "Sectiunea Echipa- liceu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3174,
+          46.1753
+        ]
+      },
+      "properties": {
+        "name": "Neumann Palace Arad",
+        "category": "Monument / obiectiv",
+        "year": "2026",
+        "prize": "",
+        "youtubeId": "vdqfSRqaNXs",
+        "youtubeUrl": "https://www.youtube.com/shorts/vdqfSRqaNXs",
+        "notes": "Sectiunea Echipa- liceu"
+      }
+    }
+  ]
+}
